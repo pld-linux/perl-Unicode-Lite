@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Unicode
-%define	pnam	Lite
+%define		pdir	Unicode
+%define		pnam	Lite
 Summary:	Unicode::Lite - easy conversion between encodings
 Summary(pl):	Unicode::Lite - ³atwa konwersja pomiêdzy kodowaniami
 Name:		perl-Unicode-Lite
