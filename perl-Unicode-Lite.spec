@@ -5,10 +5,10 @@
 %define	pdir	Unicode
 %define	pnam	Lite
 Summary:	Unicode::Lite - Easy conversion between encodings
-#Summary(pl):	
+Summary(pl):	Unicode::Lite - ³atwa konwersja pomiêdzy kodowaniami
 Name:		perl-Unicode-Lite
 Version:	0.12
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,11 +22,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module includes string converting function from one and to another
-charset.
+Unicode::Lite includes string converting function from one and to
+another charset.
 
-# %description -l pl
-# TODO
+%description -l pl
+Unicode::Lite zawiera funkcje do konwersji ci±gów na ró¿ne kodowania.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
