@@ -9,7 +9,7 @@ Summary:	Unicode::Lite - easy conversion between encodings
 Summary(pl):	Unicode::Lite - ³atwa konwersja pomiêdzy kodowaniami
 Name:		perl-Unicode-Lite
 Version:	0.12
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
