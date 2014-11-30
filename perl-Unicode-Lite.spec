@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Unicode
 %define		pnam	Lite
+%include	/usr/lib/rpm/macros.perl
 Summary:	Unicode::Lite - easy conversion between encodings
 Summary(pl.UTF-8):	Unicode::Lite - łatwa konwersja pomiędzy kodowaniami
 Name:		perl-Unicode-Lite
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f8fa78a8c113bf8b42cba6e3cb9b8797
+URL:		http://search.cpan.org/dist/Unicode-Lite/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
