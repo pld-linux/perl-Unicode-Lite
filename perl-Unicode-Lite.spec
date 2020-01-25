@@ -4,7 +4,6 @@
 
 %define		pdir	Unicode
 %define		pnam	Lite
-%include	/usr/lib/rpm/macros.perl
 Summary:	Unicode::Lite - easy conversion between encodings
 Summary(pl.UTF-8):	Unicode::Lite - łatwa konwersja pomiędzy kodowaniami
 Name:		perl-Unicode-Lite
