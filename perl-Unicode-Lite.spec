@@ -8,7 +8,7 @@ Summary:	Unicode::Lite - easy conversion between encodings
 Summary(pl.UTF-8):	Unicode::Lite - łatwa konwersja pomiędzy kodowaniami
 Name:		perl-Unicode-Lite
 Version:	0.12
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
